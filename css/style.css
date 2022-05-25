@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Lora', serif;
+    background: #d6d6d6;
+}
+.logo{
+    background: #9f6bc7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.graficlogo{
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.card{
+    float: left;
+    width: 250px;
+    margin: 30px 10px auto;
+    padding: 20px;
+
+    background: #ffffff;
+    box-shadow: 5px 5px #ccc;
+    border-radius: 10px;
+
+}
+.card-photo{
+    display: block;
+    width: 250px;
+    height: 350px;
+    margin: 0 auto;
+}
+.card-title{
+    color: black;
+}
+.center{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zagolovok{
+    margin-top: 20px;
+    color: #9f6bc7;
+    display: flex;
+    justify-content: center;
+}
+
+.card-1{
+    float: left;
+    width: 250px;
+    margin-left: 30px;
+
+    padding: 20px;
+
+    background: #ffffff;
+    box-shadow: 5px 5px #ccc;
+    border-radius: 10px;
+
+}
+
+
+.card-2{
+    display: flex;
+}
+
+.card-3{
+    display: flex;
+    margin-top: 30px;
+}
